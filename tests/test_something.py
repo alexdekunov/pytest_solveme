@@ -1,3 +1,4 @@
+from configuration import *
 
 
 def test_slogenie():
@@ -8,4 +9,5 @@ def test_slogen():
     assert 1 + 3 == 4, "Правильно"
 
 
-
+def test_solo():
+    assert SON + NAME == 4, "Правильно"
